@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+  font-family: "Open Sans", sans-serif;
+}
+body{
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    min-height: 100vh;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 65px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 130px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  padding: 10px;
+ 
+}
+
+ul a {
+   
+
+  color: #1f1534;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+  transition:  0.2s ease-in-out;
+  text-decoration: none;
+  list-style: none;
+  transition: font-weight 0.2s;
+}
+a:hover {
+  opacity: 1;
+  font-weight: 700;
+}
+main {
+  display: flex;
+  align-items: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.text h1 {
+  width: 489px;
+  color: #000;
+  font-family: "Mulish", sans-serif;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+}
+.text h1 span {
+  color: #89c5cc;
+  font-weight: 700;
+}
+.text p {
+  color: #7d7987;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+}
+button {
+    max-width: 179px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    height: 56px;
+    padding: 14px 32px 15px 32px;
+    background:  #69B99D;
+    border: none;
+    border-radius: 4px;
+    color: #f9f9f9;
+    font-weight: 500;
+   font-family: "DM Sans", sans-serif; 
+   transition: 0.2s;
+   cursor: pointer;
+}
+button:hover{
+    background-color: #52CB96;
+}
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+footer{
+    margin-top: 130px;
+    text-align: center;
+    color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 200% */
+}
